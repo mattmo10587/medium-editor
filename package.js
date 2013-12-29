@@ -3,7 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.export('MediumEditor', 'client');
-    api.add_files(['medium-editor.css'], 'client');
-    api.add_files(['medium-editor.js'], 'client');
+    api.add_files(['medium-editor.css', 'medium-editor.js'], ['client']);
+    api.export(['MediumEditor'], ['client']);
 });
