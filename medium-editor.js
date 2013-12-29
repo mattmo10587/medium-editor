@@ -83,7 +83,7 @@ MediumEditor = MediumEditorClass;
         return html;
     }
 
-    MediumEditor.prototype = {
+    MediumEditorClass.prototype = {
         defaults: {
             allowMultiParagraphSelection: true,
             anchorInputPlaceholder: 'Paste or type a link',
